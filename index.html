@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maokai's Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container navbar">
+            <div class="brand">
+                <div class="logo">MK</div>
+                <span>Maokai's Blog</span>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="blog.html">Blog</a>
+                <a href="article.html">Article</a>
+                <a href="categories.html">Categories</a>
+                <a href="about.html">About</a>
+                <button class="theme-btn" onclick="toggleTheme()">🌙</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="hero reveal">
+            <div class="hero-card">
+                <h1 class="hero-title">Welcome to Maokai's Blog</h1>
+                <p class="hero-subtitle">
+                    This blog is generated using a dual-AI collaboration system (OpenClaw + Cloud AI).
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="blog.html">View Blog</a>
+                    <a class="btn btn-secondary" href="about.html">About Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="reveal">
+            <h2 class="section-title">Latest Posts</h2>
+
+            <div class="posts-grid">
+
+                <article class="card">
+                    <div class="card-content">
+                        <h3>My First Blog Project</h3>
+                        <p class="card-meta">2026-03-25</p>
+                        <p>This is a front-end blog project generated using AI tools.</p>
+                        <a class="btn btn-secondary" href="article.html">Read More</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-content">
+                        <h3>Learning Web Development</h3>
+                        <p class="card-meta">2026-03-22</p>
+                        <p>This post shares my journey of learning HTML, CSS and JavaScript.</p>
+                        <a class="btn btn-secondary" href="article.html">Read More</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Maokai</p>
+        </div>
+    </footer>
+
+    <button id="topBtn" onclick="goTop()">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>

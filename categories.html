@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories / Tags | CodeNest 博客</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container navbar">
+            <div class="brand">
+                <div class="logo">CN</div>
+                <span>CodeNest 博客</span>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="blog.html">Blog</a>
+                <a href="article.html">Article</a>
+                <a href="categories.html" class="active">Categories / Tags</a>
+                <a href="about.html">About</a>
+                <button class="theme-btn" onclick="toggleTheme()">🌙 模式切换</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="reveal">
+            <h1 class="section-title">分类 / 标签页</h1>
+            <p class="section-subtitle">按标签查看文章内容。</p>
+
+            <div class="tags-grid">
+                <div class="tag-panel">
+                    <h3># Front-End</h3>
+                    <ul>
+                        <li><a href="article.html">如何从零开始学习前端开发</a></li>
+                        <li><a href="article.html">前端项目结构应该怎么设计</a></li>
+                        <li><a href="article.html">如何写出更好看的博客卡片布局</a></li>
+                    </ul>
+                </div>
+
+                <div class="tag-panel">
+                    <h3># Python</h3>
+                    <ul>
+                        <li><a href="article.html">Python 初学者最容易犯的 5 个错误</a></li>
+                        <li><a href="article.html">如何用 Python 提高学习效率</a></li>
+                        <li><a href="article.html">适合学生练手的 Python 小项目</a></li>
+                    </ul>
+                </div>
+
+                <div class="tag-panel">
+                    <h3># HTML / CSS</h3>
+                    <ul>
+                        <li><a href="article.html">响应式布局为什么这么重要</a></li>
+                        <li><a href="article.html">CSS 动画和过渡的基础用法</a></li>
+                        <li><a href="article.html">用 JavaScript 实现黑暗模式切换</a></li>
+                    </ul>
+                </div>
+
+                <div class="tag-panel">
+                    <h3># Student Project</h3>
+                    <ul>
+                        <li><a href="article.html">个人博客为什么适合学生做作品集</a></li>
+                        <li><a href="article.html">如何准备一个完整的前端作业展示</a></li>
+                        <li><a href="article.html">如何让老师一眼看到你的项目亮点</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 CodeNest 博客</p>
+        </div>
+    </footer>
+
+    <button id="topBtn" onclick="goTop()">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
